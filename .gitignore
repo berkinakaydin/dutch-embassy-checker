@@ -1,0 +1,17 @@
+# env
+env
+
+#target
+target
+
+# Temporary files 
+tmp
+
+# vscode folder
+.vscode
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# DS_Store
+.DS_Store
