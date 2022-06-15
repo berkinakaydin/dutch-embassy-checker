@@ -38,13 +38,17 @@ public class Main {
     try {
       FileUtils.deleteDirectory(file);
     } catch (IOException e) {
-      // TODO Auto-generated catch block
       e.printStackTrace();
     }
 
-    new Story();
-
-    quit();
+    try {
+      new Story();
+    } catch (Exception e) {
+      System.out.println("An Error Ocurred");
+      System.err.println(e);
+    } finally {
+      quit();
+    }
   }
 
   public static void quit() {

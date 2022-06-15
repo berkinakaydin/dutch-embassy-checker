@@ -1,5 +1,5 @@
 # env
-env
+.env
 
 #target
 target
@@ -14,4 +14,4 @@ tmp
 .mvn/wrapper/maven-wrapper.jar
 
 # DS_Store
-.DS_Store
+**/.DS_Store
