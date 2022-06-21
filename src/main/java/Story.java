@@ -2,7 +2,7 @@ public class Story {
   public Story() {
     Scenarios sc = new Scenarios();
     System.out.println("Navigate To Website");
-    sc.navigateTo("https://www.netherlandsworldwide.nl/countries/turkey/travel/applying-for-a-long-stay-visa-mvv");
+    sc.navigateTo("https://www.vfsvisaonline.com/Netherlands-Global-Online-Appointment_Zone2/AppScheduling/AppWelcome.aspx?P=%2FiOLWQz9Vk07YwT57Xup3WWpcMKp4QcG2ApaJBrIfls%3D");
     
     System.out.println("Click Make an appointment");
     sc.clickLink("Make an appointment");
